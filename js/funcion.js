@@ -31,3 +31,14 @@ function areas(figura){
     }
 
 }
+
+
+// numeros aleatorios
+
+function numerosAleatorios(){
+    for (let i = 0; i < largo; i++) {   
+        array.push(Math.floor(Math.random()* (aleatorio - 1) +1));
+        }
+        console.log(array);   
+}
+
